@@ -1,3 +1,8 @@
 <Solution>
-  <Project Path="Ecomm.API/Ecomm.API.csproj" />
+  <Folder Name="/src/">
+    <Project Path="../Ecomm.Application/Ecomm.Application.csproj" Id="004ca5c0-6c0f-4157-97e7-806c060139a5" />
+    <Project Path="../Ecomm.Domain/Ecomm.Domain.csproj" Id="dd430b34-0e88-4a15-8045-4ed453fac454" />
+    <Project Path="../Ecomm.Infrastructure/Ecomm.Infrastructure.csproj" Id="18394805-43f0-4a82-a499-4f887eeca96e" />
+    <Project Path="Ecomm.API/Ecomm.API.csproj" />
+  </Folder>
 </Solution>
